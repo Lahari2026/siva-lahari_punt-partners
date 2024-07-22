@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b9d219;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background-color: #9cb810;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"], textarea {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0c6c72;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #078b44;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
